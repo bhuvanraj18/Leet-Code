@@ -1,4 +1,4 @@
-int timeRequiredToBuy(int* tickets, int ticketsSize, int k) {
+int timeRequiredToBuy(int* tickets, int ticketsSize, int k) {.c
     int total_sec=0;
    while(tickets[k]>0){
     for(int i=0;i<ticketsSize;i++){
